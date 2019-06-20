@@ -4,7 +4,7 @@
 #
 Name     : mvn-sslext
 Version  : 1.2.0
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar
 Source0  : https://repo1.maven.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar
 Source1  : https://repo1.maven.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.pom
@@ -29,11 +29,11 @@ data components for the mvn-sslext package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/sslext/t/1.2-0
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/sslext/t/1.2-0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/sslext/sslext/1.2-0
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/sslext/sslext/1.2-0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/sslext/t/1.2-0
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/sslext/t/1.2-0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/sslext/sslext/1.2-0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/sslext/sslext/1.2-0
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/sslext/t/1.2-0
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/sslext/t/1.2-0/sslext-1.2-0.jar
-/usr/share/java/.m2/repository/sslext/t/1.2-0/sslext-1.2-0.pom
+/usr/share/java/.m2/repository/sslext/sslext/1.2-0/sslext-1.2-0.jar
+/usr/share/java/.m2/repository/sslext/sslext/1.2-0/sslext-1.2-0.pom
